@@ -1,4 +1,3 @@
-var char = document.getElementById('chart')
 function makeChart(players) {  
     var sub = players.map(function(d) {
       return d.MATHS;

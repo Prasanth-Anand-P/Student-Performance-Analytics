@@ -5,31 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Student Performance Analytics</title>
 </head>
 <body>
-    <h1 id="tit">Student Performance Analysis</h1>
+    <h1 id="tit">Student Performance Analytics</h1>
     <div class="box">
+      <div class="sub_boxes">
         <div class="c1">
-            <h2>CSE Core</h2>
-            <canvas id="chart"></canvas>
-          </div>
-          
-          <div class="c2">
-          <h2>Science Performance</h2>
-            <canvas id="sci_chart"></canvas>
-          </div>
-
-          <div class="c3">
-            <h2>Chemistry Performance</h2>
-              <canvas id="che_chart"></canvas>
-            </div>
-
-        <div class="c4">
-            <h2>Class Average</h2>
-              <canvas id="avg_chart"></canvas>
-            </div>
+          <h2>CSE Core</h2>
+          <canvas id="chart" height="150" width="250"></canvas>
         </div>
+      </div>
+        
+      <div class="sub_boxes2">
+        <div class="c2">
+          <h2>Science Performance</h2>
+            <canvas id="sci_chart" height="150" width="200"></canvas>
+          </div>
+      </div>
+          
+      <div class="sub_boxes3">
+        <div class="c3">
+          <h2>Chemistry Performance</h2>
+            <canvas id="che_chart" height="150" width="200"></canvas>
+          </div>
+      </div>
+
+      <div class="sub_boxes4">
+        <div class="c4">
+          <h2>Class Average</h2>
+            <canvas id="avg_chart"  height="150" width="250"></canvas>
+          </div>
+      </div>
+      </div>
+
     </div>
       
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
